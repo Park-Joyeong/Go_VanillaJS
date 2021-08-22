@@ -1,0 +1,37 @@
+<div id="app"></div>
+
+<script>
+  const $app = document.querySelector('#app');
+
+  let state = {
+    items: ['item1', 'item2', 'item3', 'item4']
+  }
+
+  const render = () => {
+    const { items } = state;
+
+    /* Template literal 
+        typeof `123` => "string"
+    */
+    /* The map() method creates a new array populated 
+        with the results of calling a provided function 
+        on every element in the calling array.
+    */
+    $app.innerHTML = `
+      <ul>
+        ${items.map(item => `<li>${item}</li>`).join('')}
+      </ul>
+      <button id="append">Append item</button>
+    `;
+    document.querySelector('#append').addEventListener('click', () => {
+      setState({ items: [...items, `item${items.length + 1}`] })
+    })
+  }//End of render()
+
+  const setState = (newState) => {
+    state = { ...state, ...newState };
+    render();
+  }
+
+  render();
+</script>
