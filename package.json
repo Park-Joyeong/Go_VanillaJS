@@ -1,0 +1,22 @@
+{
+  "name": "go_vanillajs",
+  "version": "1.0.0",
+  "description": "Excersicing component and state in VanillaJS\r <br>\r <br>\r <br>\r ### Vanilla Javascript로 웹 컴포넌트 만들기\r <https://junilhwang.github.io/TIL/Javascript/Design/Vanilla-JS-Component/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Park-Joyeong/Go_VanillaJS.git"
+  },
+  "author": "Park Joyeong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Park-Joyeong/Go_VanillaJS/issues"
+  },
+  "homepage": "https://github.com/Park-Joyeong/Go_VanillaJS#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
