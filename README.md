@@ -1,9 +1,13 @@
+![Thumbnail](/etc/Thumbnail.JPG)
+
 ### No FrontEnd Library.
 ### No Server.
-## Only using JS to SPA.
+## Making SPA using Vanilla JS.
 <br>
 
-## What to do
+## What i've done
 - Make some little Single Page App
 - Route using hash
 - ...
+
+
