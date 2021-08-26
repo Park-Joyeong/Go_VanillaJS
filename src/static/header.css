@@ -1,0 +1,22 @@
+.div-header {
+    height: 100px;
+    background-color: bisque;
+}
+.div-logo > .img-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.div-logo {
+    float: left;
+
+    border: 2px solid red;
+}
+.div-menu {
+    float: right;
+    height: 100%;
+    border: 2px solid red;
+}
+.div-menu > a {
+  /* vertical-align: middle; */
+}

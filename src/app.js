@@ -9,6 +9,7 @@ import { parseCurrentUrl } from "./core/router.js";
 const router = async () => {
   const $content = null || document.getElementById("content");
   const pageList = {
+    "/": Home,
     "/#": Home,
     "/#login": Login,
     "/#signup": Signup,
