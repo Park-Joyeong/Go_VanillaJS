@@ -9,14 +9,8 @@
 }
 .div-logo {
     float: left;
-
-    border: 2px solid red;
 }
 .div-menu {
     float: right;
     height: 100%;
-    border: 2px solid red;
-}
-.div-menu > a {
-  /* vertical-align: middle; */
 }

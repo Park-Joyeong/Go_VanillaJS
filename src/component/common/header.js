@@ -9,7 +9,7 @@ export default class Header extends Component {
         </div>
         <div class="div-menu">
           <a href="#">Home</a>
-          <a href="#about">About</a>
+          <a href="https://github.com/Park-Joyeong/Go_VanillaJS" target="_blank">About</a>
           <a href="#login">Login</a>
           <a href="#signup">SignUp</a>
         </div>

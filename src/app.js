@@ -2,7 +2,6 @@ import Home from "./pages/home.js";
 import DetailPage from "./pages/id.js";
 import Login from "./pages/login.js";
 import Signup from "./pages/signup.js";
-import About from "./pages/about.js";
 
 import { parseCurrentUrl } from "./core/router.js";
 
@@ -13,7 +12,6 @@ const router = async () => {
     "/#": Home,
     "/#login": Login,
     "/#signup": Signup,
-    "/#about": About,
   };
   const { routes } = parseCurrentUrl();
   const parsedUrl = routes ? `/${routes}` : "/";
