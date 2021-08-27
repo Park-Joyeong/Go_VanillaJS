@@ -8,7 +8,29 @@ export default class Home extends Component {
   }
   mounted() {
     const $carousel = this.$el.querySelector("#carousel");
-    new Carousel($carousel, {});
+
+    const carouselPropsObj = this.doCarouselFetch();
+
+    new Carousel($carousel, carouselPropsObj);
   }
+
+  doCarouselFetch() {
+    // do something...
+    return {
+      arr: [//Array of [[3obj],[3obj]]
+        [
+          { imageUrl: 'a.jpg', href:"./2123213" },
+          { imageUrl: 'a.jpg', href:"./2123213" },
+          { imageUrl: 'a.jpg', href:"./2123213" }
+        ],
+        [
+          { imageUrl: 'a.jpg', href:"./2123213" },
+          { imageUrl: 'a.jpg', href:"./2123213" },
+          { imageUrl: 'a.jpg', href:"./2123213" }
+        ]
+      ]
+    };
+  }
+
 
 }
