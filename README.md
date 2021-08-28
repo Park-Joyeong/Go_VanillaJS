@@ -1,4 +1,4 @@
-![Thumbnail](/etc/Thumbnail2.JPG)
+![Thumbnail](/etc/Thumbnail.JPG)
 
 ### No FrontEnd Library.
 ### No Server.
